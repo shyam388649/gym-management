@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="home.master.cs" Inherits="home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Fitness In Gym Management</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Fitness In Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--// bootstrap-css -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--// css -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+    <!-- font -->
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/css1.css" rel="stylesheet">
+    <!-- //font -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- banner -->
+            <div class="banner">
+                <div class="address-info">
+                    <div class="container">
+                        <div class="address-info-text">
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> &nbspD-27&28, INSTITUTIONAL AREA, JANAKPURI-110058 New Delhi, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-info">
+                    <div class="banner-info-text">
+                        <div class="container">
+                            <div class="agileits-logo">
+                                <h1><a href="index.html">Fitness<span>In</span></a></h1>
+                            </div>
+                            <div class="w3-border"></div>
+                            <div class="w3layouts-banner-info">
+                                <h2>The Healthy Way of Life Company</h2>
+                                <div class="w3ls-button">
+                                    <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-top">
+                        <div class="container">
+                            <div class="header-top-info">
+                                <nav class="navbar navbar-inverse navbar-fixed-top">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                                        <nav>
+                                            <ul class="nav navbar-nav">
+                                                <li class="active"><a href="home.aspx">Home</a></li>
+                                                <li><a href="#about" class="scroll">About</a></li>
+                                                <li><a href="#services" class="scroll">Services</a></li>
+                                                <li><a href="#gallery" class="scroll">Gallery</a></li>
+                                                <li><a href="#team" class="scroll">Team</a></li>
+                                                <li><a href="#news" class="scroll">News</a></li>
+                                                <li><a href="#mail" class="scroll">Contact</a></li>
+                                                <li><a href="login.aspx">Login</a></li>
+                                                 <li><a href="Registration.aspx">Sign Up</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- footer -->
+            <div class="footer">
+                <div class="container">
+                    <div class="agile_footer_copy">
+                        <div class="w3agile_footer_grids">
+                            <div class="col-md-4 w3agile_footer_grid">
+                                <h3>About Us</h3>
+                                <p>Life Time Fitness is a health club company with facilities for sports, professional fitness, family recreation and spa. Under the Life Time Fitness® and Life Time Athletic® brands the company operates 112 centers in the India and Canada, most of which operate 24 hours a day, seven days a week. </span></p>
+                            </div>
+                            <div class="col-md-4 w3agile_footer_grid">
+                                <h3>Contact Info</h3>
+                                <ul>
+                                    <li><i class="fa fa-map" aria-hidden="true">&nbsp</i> D-27&28, INSTITUTIONAL AREA, JANAKPURI-110058 New Delhi, India</li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true">&nbsp</i>ashishkumar.mishra494@gmail.com</li>
+                                    <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +918826132857,&nbsp +917550751271</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 w3agile_footer_grid w3agile_footer_grid1">
+                                <h3>Navigation</h3>
+                                <ul>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#about" class="scroll">About</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#services" class="scroll">Services</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#Gallery" class="scroll">Gallery</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#team" class="scroll">Team</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#news" class="scroll">News</a></li>
+                                    <li><i class="fa fa-angle-right" aria-hidden="true"></i><a href="#mail" class="scroll">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="w3_agileits_copy_right_social">
+                        <div class="agileits_w3layouts_copy_right">
+                            <p>&copy; 2017 Fitness In. All rights reserved | Design by Shyam Mishra</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- //footer -->
+            <script src="js/jarallax.js"></script>
+            <script src="js/SmoothScroll.min.js"></script>
+            <script type="text/javascript">
+                /* init Jarallax */
+                $('.jarallax').jarallax({
+                    speed: 0.5,
+                    imgWidth: 1366,
+                    imgHeight: 768
+                })
+            </script>
+            <script src="js/responsiveslides.min.js"></script>
+            <script type="text/javascript" src="js/move-top.js"></script>
+            <script type="text/javascript" src="js/easing.js"></script>
+            <!-- here stars scrolling icon -->
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    /*
+                        var defaults = {
+                        containerID: 'toTop', // fading element id
+                        containerHoverID: 'toTopHover', // fading element hover id
+                        scrollSpeed: 1200,
+                        easingType: 'linear' 
+                        };
+                    */
+
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+
+                });
+            </script>
+            <!-- //here ends scrolling icon -->
+            <!-- Tabs-JavaScript -->
+            <!-- stats -->
+            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="js/jquery.countup.js"></script>
+            <script>
+                $('.counter').countUp();
+            </script>
+            <!-- //stats -->
+
+        </div>
+    </form>
+</body>
+</html>
